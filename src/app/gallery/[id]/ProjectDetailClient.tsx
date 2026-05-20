@@ -41,7 +41,7 @@ export default function ProjectDetailClient({ id }: { id: string }) {
           该作品不存在或已被删除。作品数据存储在本地浏览器中，请返回首页查看。
         </p>
         <Link
-          href="/portfolio/"
+          href="/"
           className="px-6 py-3 bg-indigo-500 text-white rounded-lg hover:bg-indigo-400 transition-colors"
         >
           返回首页
@@ -61,7 +61,7 @@ export default function ProjectDetailClient({ id }: { id: string }) {
       <div className="min-h-screen bg-[#1a1a2e] text-white">
         <div className="max-w-3xl mx-auto px-4 py-8">
           <Link
-            href="/portfolio/"
+            href="/"
             className="inline-flex items-center gap-2 text-white/60 hover:text-white transition-colors mb-6"
           >
             ← 返回作品集
